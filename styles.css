@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.container {
+    width: 1135px; 
+    margin: 0 auto;
+
+}
+
+.header {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo {
+     width: 79px;
+     height: 28px;
+     margin-right: 39px;
+}
+
+.header_nav a:not(:last-child) {
+    margin-right: 24px;
+}
+
+.header_nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header_socials-icon {
+    width: 17px;
+    height: 16px;
+}
+
+.header_socials-icon:not(:last-child) {
+    margin-right: 20px;
+}
+
+body {
+    background: url(../img/background.jpg);
+}
+
+.footer {
+    background: #030102;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-menu {
+    display: flex;
+    padding-left: 0;
+    color: #ffffff;
+}
+
+.footer-menu li {
+    list-style: none;
+}
+
+.footer-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-menu list-style:not(:last-child) {
+    margin-right: 25px;
+}
